@@ -173,4 +173,5 @@ nav .bars {
     border: transparent;
     border-radius: 15px;
     color: #FFF;
+    cursor: pointer;
 }
