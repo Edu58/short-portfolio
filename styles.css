@@ -5,6 +5,7 @@
 
 html {
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 nav .bars {
@@ -41,6 +42,12 @@ nav .bars {
     font-weight: 400;
     cursor: pointer;
     transition: 0.2s;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: #000;
+    transition: .2s;
 }
 
 .nav-links ul i {
@@ -174,4 +181,246 @@ nav .bars {
     border-radius: 15px;
     color: #FFF;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-area img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skills .myskills h4 {
+    font-size: 1rem;
+    color: rgb(51, 185, 141);
+}
+
+#html{
+    font-size: 2rem;
+    margin-right: .5rem;
+    color: rgb(224, 95, 9);
+}
+
+#css{
+    font-size: 2rem;
+    margin-right: .5rem;
+    color: rgb(30, 60, 197);
+}
+
+#js{
+    font-size: 2rem;
+    margin-right: .5rem;
+    color: rgb(231, 103, 18);
+}
+
+
+
+.skills .myexpertise p {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.skills img {
+    height: auto;
+    width: 40%;
+}
+
+@media only screen and (max-width: 768px) {
+    .skills {
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .skills .myskills {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.recent h4 {
+    margin-top: 4rem;
+    margin-left: 7rem;
+    color: rgb(51, 185, 141)
+}
+
+.projects .design {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.projects .design h1 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.projects .design img {
+    height: 100%;
+    width: 80%;
+}
+
+.projects .design .view-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects .design .view-button button {
+    padding: .8rem 3rem;
+    border: transparent;
+    border-radius: 15px;
+    background-color: rgb(51, 185, 141);
+    color: #FFF;
+    font-size: .9rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .projects .design img {
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.comments {
+    margin-top: 4rem;
+}
+
+.comments .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.comments .text h4 {
+    color: rgb(51, 185, 141);
+}
+
+.comments .text h1 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.comments .cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comments .cards img {
+    height: auto;
+    width: 20%;
+}
+
+.comments .cards  {
+    display: flex;
+    justify-content: space-around;
+}
+
+.comments .cards button {
+    margin-top: 2rem;
+    padding: .5rem 2rem;
+    font-size: 1rem;
+    background-color: rgb(51, 185, 141);
+    color: #FFF;
+    border: transparent;
+    cursor: pointer;
+}
+
+.comments .cards .card1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 10px;
+    padding: 4rem 1rem;
+    transition: .2s ease;
+}
+
+.comments .cards .card1:hover {
+    transform: translateY(-10px);
+}
+
+@media only screen and (max-width: 768px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .cards .card1 {
+        margin-bottom: 1rem;
+    }
+}
+
+.estimation {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.estimation h1 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.estimation input {
+    padding: .8rem 3rem;
+    border-radius: 20px;
+    border: 1px solid rgb(51, 185, 141);
+    outline: none;
+}
+
+.estimation button {
+    margin-left: .5rem;
+    padding: .8rem 3rem;
+    border-radius: 20px;
+    border: 1px solid rgb(51, 185, 141);
+    background-color: rgb(51, 185, 141);
+    color: #FFF;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .estimation button {
+        margin-top: 1rem;
+    }
+}
+
+footer {
+    margin-top: 4rem;
+    border-top: 1px solid rgb(230, 229, 229);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
 }
