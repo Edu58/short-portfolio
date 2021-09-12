@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <i class="fab fa-confluence"></i>
+                </div>
+
+                <div class="nav-links" id="nav_links">
+                        <ul>
+                            <i class="fas fa-times" onclick=closing() id="times"></i>
+                        </ul>
+
+                        <ul>
+                            <li class="navlink">HOME</li>
+                        </ul>
+
+                        <ul>
+                            <li class="navlink">SKILLS</li>
+                        </ul>
+
+                        <ul>
+                            <li class="navlink">RECENT</li>
+                        </ul>
+
+                        <ul>
+                            <li class="navlink">SERVICES</li>
+                        </ul>
+
+                        <ul>
+                </div>
+                    
+                <h3>Say Hi!</h3>
+            </div>
+                
+            <div class="bars">
+                <i class="fas fa-bars" onclick=slide() id="slider"></i>
+            </div>
+
+        </nav>
+    </header>
+
+    <main>
+        <div class="main-area">
+            <img src="Code-collaboration.svg" alt="time management">
+
+            <div class="text">
+                <div>
+                    <h1>Hello, I am Edwin</h1>
+                    <p>I'm a web developer. This is my personal portfolio, <br> which shows some of my skills in frontend web development.</p>
+                    <button type="button">See My Portfolio</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="main.js"></script>
+</body>
+</html>
