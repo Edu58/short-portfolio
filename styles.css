@@ -1,6 +1,7 @@
 :root {
-    margin: 0.5rem 2rem;
+    margin: 0;
     padding: 0;
+    background: rgb(255, 254, 254);
 }
 
 html {
@@ -26,7 +27,7 @@ nav .bars {
 
 .logo i {
     font-size: 2rem;
-    color: rgb(51, 185, 141);
+    color: rgb(27, 209, 148);
     cursor: pointer;
 }
 
@@ -92,6 +93,15 @@ nav .bars {
         padding: .2rem;
     }
 
+    nav .bulb i {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+
     nav .bars {
         display: contents;
         position: relative;
@@ -102,10 +112,10 @@ nav .bars {
         position: absolute;
         top: 5%;
         right: 5%;
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         cursor: pointer;
     }
-
+    
     .navbar {
         display: flex;
         justify-content: space-between;

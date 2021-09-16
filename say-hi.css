@@ -3,11 +3,12 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 2rem;
+    min-height: 80vh;
 }
 
 .signup img{
     height: auto;
-    width: 40%;
+    width: 35%;
 }
 
 .signup .fields {
@@ -27,16 +28,22 @@
 }
 
 .fields input {
-    padding: .5rem 3rem;
-    margin: 1rem 0;
+    height: 2rem;
+    width: 100%;
+    margin: 0 0 2rem 0;
     border: transparent;
     border-bottom: 1px solid rgb(51, 185, 141);
+    border-radius: 2px;
     outline: none;
 }
 
-.fields .message {
-    padding: 6rem 3rem;
+.fields textarea {
+    padding: .1rem .2rem;
+    height: 15rem;
+    width: 15rem;
     border: 1px solid rgb(51, 185, 141);
+    border-radius: 2px;
+    outline: none;
 }
 
 .fields button {
