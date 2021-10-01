@@ -46,13 +46,13 @@ nav .bars {
     font-size: 1rem;
     font-weight: 400;
     cursor: pointer;
-    transition: 0.2s;
+    transition: .3s;
 }
 
 .nav-links ul li a {
     text-decoration: none;
     color: #000;
-    transition: .2s;
+    transition: .3s;
 }
 
 .nav-links ul i {
@@ -93,15 +93,6 @@ nav .bars {
         padding: .2rem;
     }
 
-    nav .bulb i {
-        position: absolute;
-        top: 5%;
-        left: 5%;
-        font-size: 1.5rem;
-        cursor: pointer;
-    }
-
-
     nav .bars {
         display: contents;
         position: relative;
@@ -123,19 +114,11 @@ nav .bars {
     
     .navbar .nav-links {
         position: absolute;
-        display: flex;
-        flex-direction: column;
         top: 5%;
         right: -100%;
         width: 45%;
         height: 80%;
-        align-items: center;
-        text-align: center;
-        background-color: rgb(96, 201, 178);
-        border: transparent;
-        border-radius: 2px;
-        z-index: 2;
-        transition: .5s;
+        transition: .3s;
     }
     
     .nav-links ul {
@@ -145,6 +128,7 @@ nav .bars {
         text-align: center;
         margin-top: 2.5rem;
         padding: 1px;
+        transition: .3s;
     }
 
     .main-area {

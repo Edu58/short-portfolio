@@ -5,13 +5,11 @@ var bodies = document.getElementById("everything")
 
 function slide() {
     navslide.style.left = "60%";
+    navslide.style.display = "contents";
+    burger.style.display = "none";
 }
 
 function closing() {
-    navslide.style.left = "115%";
-}
-
-function darkmode() {
-    document.body.style.background = "#212020"
-    document.body.style.color = "#fff"
+    navslide.style.display = "none";
+    burger.style.display = "block"
 }
