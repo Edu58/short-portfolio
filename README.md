@@ -3,6 +3,7 @@
 
 ### Summary
 
+![portfolio](portfolio.png)
 
 This is an example portfolio template.It is made using HTML, CSS and Javascript. Nothing advanced, just basic vanilla javascript for the slide menu. Feel free to modify anythin to your liking and use the template for anything you wish.
 
