@@ -1,9 +1,10 @@
 # Example portfolio
+## Live Link - https://ed-portfolio.netlify.app/
 
 ### Summary
 
-This is an example portfolio template.It is made using HTML, CSS and Javascript. Nothing advanced, just basic vanilla javascript for the slide menu.
 
+This is an example portfolio template.It is made using HTML, CSS and Javascript. Nothing advanced, just basic vanilla javascript for the slide menu. Feel free to modify anythin to your liking and use the template for anything you wish.
 
 ### License
 Copyright 2021 Edwin Karimi
